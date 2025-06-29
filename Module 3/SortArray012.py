@@ -11,7 +11,7 @@ class Solution:
          print(f"0s, 1s, and 2s are segregated into ascending order.")
          print(f"List contents after sorting: {a}")    
 
-arr1 = [0, 1, 2, 0, 1, 2]
+arr1 = [0, 2, 1, 0, 2, 1]
 arr2 = [0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1]
 
 S1 = Solution()
