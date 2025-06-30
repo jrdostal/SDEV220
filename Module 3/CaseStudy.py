@@ -1,3 +1,9 @@
+#CaseStudy.py
+#Created by: Johnathan Dostal
+#This is a program designed to define a new super class called 'Vehicle' then a sub-class called Automobile. Both classes have at least one attribute that is then input by the user, which is ultimately displayed in an orderly fashion to the user.
+#Variables used include the attributes of the classes. These are the Vehicle type, the Automobile year, Automobile make, Automobile model, Automobile model, Automobile number of doors, and Automobile style of roof.
+
+
 class Vehicle:
     type = ""
 
