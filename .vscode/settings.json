@@ -91,5 +91,28 @@
     "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
     "typescript.inlayHints.parameterTypes.enabled": true,
     "typescript.inlayHints.variableTypes.enabled": true,
-    "remoteHub.commitDirectlyWarning": "off"
+    "remoteHub.commitDirectlyWarning": "off",
+    "files.autoSave": "onWindowChange",
+    "editor.formatOnSave": true,
+    "python.analysis.extraPaths": [
+        "C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4"
+    ],
+    "python.autoComplete.extraPaths": ["C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4"
+
+    ],
+    "python.analysis.include": [
+        "\"C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4\""
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "."
+    ]
 }
