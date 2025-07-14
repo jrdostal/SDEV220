@@ -1,11 +1,12 @@
-#CaseStudy.py
-#Created by: Johnathan Dostal
-#This is a program designed to define a new super class called 'Vehicle' then a sub-class called Automobile. Both classes have at least one attribute that is then input by the user, which is ultimately displayed in an orderly fashion to the user.
-#Variables used include the attributes of the classes. These are the Vehicle type, the Automobile year, Automobile make, Automobile model, Automobile model, Automobile number of doors, and Automobile style of roof.
+# CaseStudy.py
+# Created by: Johnathan Dostal
+# This is a program designed to define a new super class called 'Vehicle' then a sub-class called Automobile. Both classes have at least one attribute that is then input by the user, which is ultimately displayed in an orderly fashion to the user.
+# Variables used include the attributes of the classes. These are the Vehicle type, the Automobile year, Automobile make, Automobile model, Automobile model, Automobile number of doors, and Automobile style of roof.
 
 
 class Vehicle:
     type = ""
+
 
 class Automobile(Vehicle):
     year = 2000
@@ -13,6 +14,7 @@ class Automobile(Vehicle):
     model = ""
     doors = 2
     roof = "solid"
+
 
 Car_1 = Automobile()
 
@@ -29,4 +31,4 @@ print(f"Year: {Car_1.year}")
 print(f"Make: {Car_1.make}")
 print(f"Model: {Car_1.model}")
 print(f"Number of doors: {Car_1.doors}")
-print(f"Type of roof: {Car_1.roof}\n")
+print(f"Type of roof: {Car_1.roof}")
