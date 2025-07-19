@@ -95,13 +95,14 @@
     "files.autoSave": "onWindowChange",
     "editor.formatOnSave": true,
     "python.analysis.extraPaths": [
-        "C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4"
+        "C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4",
+        "C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\",
     ],
-    "python.autoComplete.extraPaths": ["C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4"
+    "python.autoComplete.extraPaths": ["C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4", "C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\",
 
     ],
     "python.analysis.include": [
-        "\"C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4\""
+        "\"C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\Module_4\"", "C:\\Users\\dosta\\OneDrive\\Documentos\\Homework\\SDEV220\\", 
     ],
     "python.testing.unittestArgs": [
         "-v",
