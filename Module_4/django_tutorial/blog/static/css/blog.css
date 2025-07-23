@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #c25100;
+  background-color: #45d94d;
   margin-top: 0;
   margin-bottom: 40px;
   padding: 20px 20px 20px 40px;
@@ -39,7 +39,7 @@ h4 {
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
-  color: #fff;
+  color: #828282;
   float: right;
   font-size: 26pt;
   margin-right: 20px;
@@ -50,7 +50,7 @@ h4 {
 }
 
 .post h2 a:visited {
-  color: #000;
+  color: #828282;
 }
 
 .post > .date,
@@ -60,13 +60,13 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-  color: #c25100;
+  color: #828282;
   background: none;
-  border-color: #c25100;
+  border-color: #45d94d;
   margin-left: 15px;
 }
 
 .btn-secondary:hover {
-  color: #FFF;
-  background-color: #c25100;
+  color: #828282;
+  background-color: #45d94d;
 }
