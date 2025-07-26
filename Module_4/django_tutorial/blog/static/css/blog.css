@@ -36,17 +36,55 @@ h4 {
   width: 100%;
 }
 
-.top-menu,
-.top-menu:hover,
+.top-menu{
+  color: #828282;
+  background-color: none;
+  fill: #005cdd;
+  border-color: #45d94d;
+  margin-left: 5px;
+  float: right;
+  font-family: 'Lobster', cursive;
+}
+.top-menu:hover{
+  color: #828282;
+  background-color: none;
+  fill: #005cdd;
+  border-color: #45d94d;
+  margin-left: 5px;
+  float: right;
+  font-family: 'Lobster', cursive;
+}
 .top-menu:visited {
   color: #828282;
+  background-color: none;
+  fill: #005cdd;
+  border-color: #45d94d;
+  margin-left: 5px;
   float: right;
-  font-size: 26pt;
-  margin-right: 20px;
+  font-family: 'Lobster', cursive;
+}
+.top-outline-menu{
+  color: #828282;
+  background-color: none;
+  fill: #005cdd;
+  border-color: #45d94d;
+  margin-left: 5px;
+  float: right;
+  font-family: 'Lobster', cursive;
+}
+.top-outline-menu:hover{
+  color: #828282;
+  background-color: none;
+  fill: #005cdd;
+  border-color: #45d94d;
+  margin-left: 5px;
+  float: right;
+  font-family: 'Lobster', cursive;
 }
 
 .post {
   margin-bottom: 70px;
+  color: #828282;
 }
 
 .post h2 a:visited {
@@ -58,15 +96,51 @@ h4 {
   float: right;
 }
 
-.btn-secondary,
+.btn-primary,
+.btn-secondary{
+  color: #828282;
+  background-color: #45d94c;
+}
+.btn-secondary:hover{
+  color: #828282;
+  background-color: #45d94c00;
+}
 .btn-secondary:visited {
   color: #828282;
   background: none;
   border-color: #45d94d;
-  margin-left: 15px;
+  margin-left: 5px;
+}
+.btn-outline-secondary{
+  color: #828282;
+  background-color: #45d94c;
+}
+.btn-outline-secondary:hover{
+  color: #828282;
+  background-color: #45d94c00;
 }
 
-.btn-secondary:hover {
-  color: #828282;
-  background-color: #45d94d;
+.btn-danger{
+  color: #ffffff;
+  background-color: #d94545;
+  margin-left: 5px;
+}
+.btn-danger:hover{
+  color:#ffffff;
+  background-color: #000000;
+}
+#logout {
+    font-family: 'Lobster', cursive;
+    float: right;
+
+}
+small a,
+small a:hover,
+small a:visited {
+    font-size: 15pt;
+    color: #ffffff;
+    text-decoration: none;
+}
+.comment {
+    margin: 20px 0px 20px 20px;
 }
