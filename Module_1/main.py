@@ -6,5 +6,3 @@ print(pi * 2)
 print("hello world")
 
 print("Goodbye World")
-
-print("changed")
